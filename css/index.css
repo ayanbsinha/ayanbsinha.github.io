@@ -1,0 +1,134 @@
+:root {
+    --highlight-color: #FA3B94;
+    ;
+}
+
+.intro {
+    margin-top: 8em;
+}
+
+.brand-font {
+    font-family: 'Dynalight';
+    font-size: 10em;
+    margin: 0px;
+}
+
+.color-hover:hover {
+    color: var(--highlight-color);
+}
+
+
+/* Anyan Name Animation */
+
+.middle {
+    position: relative;
+}
+
+.middle:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--highlight-color);
+    ;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.middle:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+
+/* Button Tag Animation CSS */
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.group_button .btn {
+    height: 60px;
+    width: 240px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: transparent;
+    outline: none;
+    margin-top: 20px;
+    border: 4.5px solid var(--highlight-color);
+    color: white;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0px 0px 4.5px var(--highlight-color), inset 0px 0px 4.5px var(--highlight-color);
+}
+
+.group_button .btn:hover {
+    color: var(--highlight-color);
+}
+
+
+/* btn-2 */
+
+.btn.btn-2 {
+    border: none;
+    box-shadow: none;
+}
+
+.btn-2::before {
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    border: 4.5px solid transparent;
+    box-shadow: 0px 0px 0px transparent;
+    height: 0px;
+    width: 0px;
+}
+
+.btn-2::after {
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    right: 0;
+    border: 4.5px solid transparent;
+    box-shadow: 0px 0px 0px transparent;
+    height: 0px;
+    width: 0px;
+}
+
+.btn-2:hover::before {
+    border: 4.5px solid var(--highlight-color);
+    border-right: none;
+    border-bottom: none;
+    box-shadow: -1px -2px 2px var(--highlight-color), inset 1px 1px 2px var(--highlight-color);
+    height: 100%;
+    width: 100%;
+    transition: height .2s linear, width .7s linear .2s;
+}
+
+.btn-2:hover::after {
+    border: 4.5px solid var(--highlight-color);
+    border-left: none;
+    border-top: none;
+    box-shadow: 1px 2px 2px var(--highlight-color), inset -1px -1px 2px var(--highlight-color);
+    height: 100%;
+    width: 100%;
+    transition: height .2s linear, width .7s linear .2s;
+}
+
+
+/*
+  light-blue: #C1D0D0;
+  dark-blue: #4A676A;
+  cream: #FFEAA5;
+  yellow: #FFB037;
+  */

@@ -12,197 +12,44 @@
     <link href="img/as_logo.jpg" rel="icon">
     <link href="img/as_logo.jpg" rel="apple-touch-icon">
 
-    <!-- Bootstrap CSS File -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- W3 Stylesheet File -->
+    <link href="css/w3.css" rel="stylesheet">
 
-    <!-- Libraries CSS Files -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-    <!-- Main Stylesheet File -->
-    <link href="css/style.css" rel="stylesheet">
+    <!-- Google Fonts  -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet'> -->
+    <link href='https://fonts.googleapis.com/css?family=Dynalight' rel='stylesheet'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'> -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet'>
+     -->
 
     <!-- =======================================================
-    Theme Name: DevFolio
-    Author: BootstrapMade.com
-    Modified: Rahul Kumar Sinha
+    Author: Rahul Kumar Sinha
     Website: www.sinharahul.com
   ======================================================= -->
 </head>
 
-<body id="page-top">
+<!-- Main Stylesheet File -->
+<link href="css/index.css" rel="stylesheet">
 
-    <!--/ Nav Star /-->
-    <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll" href="#page-top">AyanSinha</a>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-            <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll active" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll" href="product-manager.html">IT Professional</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll" href="martial-art-player.html">Martial Art Player</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
+<body class="w3-black w3-center">
+    <div class="intro">
+        <p class="brand-font"><a class="middle color-hover">Ayan</a></p>
+        <p>KNOW MORE ABOUT ME AS</p>
+        <section>
+            <div class="group_button">
+                <button class="btn btn-2" onclick="document.location.href='product-manager.html#about';">
+                <a>IT Professional</a>
+                </button>
+                <button class="btn btn-2" onclick="document.location.href='martial-art-player.html#about';">
+                <a>Martial Art Player</a>
+                </button>
             </div>
-        </div>
-    </nav>
-    <!--/ Nav End /-->
-
-    <!--/ Intro Skew Star /-->
-    <div id="home" class="intro route bg-image" style="background-image: url(img/intro-bg.jpg)">
-        <div class="overlay-itro"></div>
-        <div class="intro-content display-table">
-            <div class="table-cell">
-                <div class="container">
-                    <!-- <p class="display-6 color-d">Hello, world!</p> -->
-                    <h1 class="intro-title mb-4">I am Ayan Sinha</h1>
-                    <p class="intro-subtitle"><span class="text-slider-items">Product Manager,Seniour Bussiness Analyst,Martial Art Player,Athlete</span><strong class="text-slider"></strong></p>
-                    <p class="color-d">KNOW MORE ABOUT ME AS</p>
-                    <p class="pt-3">
-                        <a class="btn btn-outline-danger color-d js-scroll px-4 display-6 rs-no-border" href="product-manager.html#about" role="button">IT Professional</a>
-                        <a class="btn btn-outline-danger color-d js-scroll px-4 display-6 rs-no-border" href="martial-art-player.html#about" role="button">Martial Art Player</a>
-                    </p>
-                </div>
-            </div>
-        </div>
+        </section>
     </div>
-    <!--/ Intro Skew End /-->
-
-    <!--/ Section Contact-Footer Star /-->
-    <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
-        <div class="overlay-mf"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="contact-mf">
-                        <div id="contact" class="box-shadow-full">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="title-box-2">
-                                        <h5 class="title-left">
-                                            Send Message Us
-                                        </h5>
-                                    </div>
-                                    <div>
-                                        <form action="" method="post" role="form" class="contactForm">
-                                            <div id="sendmessage">Your message has been sent. Thank you!</div>
-                                            <div id="errormessage"></div>
-                                            <div class="row">
-                                                <div class="col-md-12 mb-3">
-                                                    <div class="form-group">
-                                                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                                        <div class="validation"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 mb-3">
-                                                    <div class="form-group">
-                                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                                                        <div class="validation"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 mb-3">
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                                                        <div class="validation"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 mb-3">
-                                                    <div class="form-group">
-                                                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                                                        <div class="validation"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="title-box-2 pt-4 pt-md-0">
-                                        <h5 class="title-left">
-                                            Get in Touch
-                                        </h5>
-                                    </div>
-                                    <div class="more-info">
-                                        <p class="lead">
-                                            I am available for training and consultation during 6 AM to 9 AM and 7 PM to 9 PM on Weekdays, while on Weekends in am available from 9 AM to 4PM.
-                                        </p>
-                                        <ul class="list-ico">
-                                            <li><span class="ion-ios-location"></span> Pune, Maharastra, India</li>
-                                            <li><span class="ion-ios-telephone"></span> (+91) 954-570-0068 </li>
-                                            <li><span class="ion-email"></span> ayanbsinha@gmail.com</li>
-                                        </ul>
-                                    </div>
-                                    <div class="socials">
-                                        <ul>
-                                            <li><a href="https://www.linkedin.com/in/ayanbsinha" target="_blank"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
-                                            <li><a href="https://www.instagram.com/ayanbsinha/" target="_blank"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
-                                            <li><a href="https://twitter.com/ayanbsinha" target="_blank"><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
-                                            <li><a href="https://www.facebook.com/ayanbsinha" target="_blank"><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="copyright-box">
-                            <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
-                            <div class="credits">
-                                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a><br> Modified by <a href="https://sinharahul.com/">Rahul Sinha</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </section>
-    <!--/ Section Contact-footer End /-->
-
-    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-    <div id="preloader"></div>
-
-    <!-- JavaScript Libraries -->
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/jquery/jquery-migrate.min.js"></script>
-    <script src="lib/popper/popper.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/counterup/jquery.waypoints.min.js"></script>
-    <script src="lib/counterup/jquery.counterup.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-    <script src="lib/typed/typed.min.js"></script>
-    <!-- Contact Form JavaScript File -->
-    <script src="contactform/contactform.js"></script>
-
-    <!-- Template Main Javascript File -->
-    <script src="js/main.js"></script>
-
 </body>
+
+
+<!-- JavaScript Libraries -->
+<!-- <script src="lib/jquery/jquery.min.js"></script> -->
 
 </html>
