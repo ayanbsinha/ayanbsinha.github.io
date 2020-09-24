@@ -70,7 +70,11 @@ section {
 }
 
 .group_button .btn:hover {
-    color: var(--highlight-color);
+    color: #000;
+    background: var(--highlight-color);
+    box-shadow: 0 0 10px var(--highlight-color), 0 0 40px var(--highlight-color), 0 0 80px var(--highlight-color);
+    transition: 1s;
+    transition-delay: 0.2s;
 }
 
 
@@ -112,7 +116,7 @@ section {
     box-shadow: -1px -2px 2px var(--highlight-color), inset 1px 1px 2px var(--highlight-color);
     height: 100%;
     width: 100%;
-    transition: height .2s linear, width .7s linear .2s;
+    transition: height .1s linear, width .3s linear .1s;
 }
 
 .btn-2:hover::after {
@@ -122,7 +126,7 @@ section {
     box-shadow: 1px 2px 2px var(--highlight-color), inset -1px -1px 2px var(--highlight-color);
     height: 100%;
     width: 100%;
-    transition: height .2s linear, width .7s linear .2s;
+    transition: height .1s linear, width .3s linear .1s;
 }
 
 
