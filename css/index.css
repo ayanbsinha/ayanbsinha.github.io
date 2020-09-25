@@ -3,6 +3,12 @@
     ;
 }
 
+body {
+    color: #fff!important;
+    background-color: #000!important;
+    text-align: center!important
+}
+
 .intro {
     margin-top: 8em;
 }
@@ -128,11 +134,3 @@ section {
     width: 100%;
     transition: height .1s linear, width .3s linear .1s;
 }
-
-
-/*
-  light-blue: #C1D0D0;
-  dark-blue: #4A676A;
-  cream: #FFEAA5;
-  yellow: #FFB037;
-  */
